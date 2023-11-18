@@ -131,6 +131,7 @@ input:focus,
 }
 .button_brown:hover {
   background: #000;
+  color: #fff;
 }
 
 .button_grey {
@@ -379,6 +380,10 @@ nav .contact_us .contact_form form textarea ~ ul,
   .contact_us .contact_form form nav textarea ~ ul {
     width: 150px;
   }
+  nav{
+    width: auto;
+    height: auto;
+  }
 }
 nav input ~ ul li,
 nav .contact_us .contact_form form textarea ~ ul li,
@@ -449,6 +454,7 @@ header .slideshow {
   height: 100vh;
   max-width: 1600px;
   position: relative;
+  background-color: #000;
 }
 header .slideshow .fade {
   animation: fade 1.5s;
@@ -477,7 +483,7 @@ header .slideshow .slide .hero h1 {
   margin: 0;
   font-size: 72px;
   letter-spacing: -1px;
-  color: #000;
+  color: #fff;
   line-height: 1;
 }
 @media (max-width: 992px) {
