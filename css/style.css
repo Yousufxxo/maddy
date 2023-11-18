@@ -132,6 +132,7 @@ input:focus,
 .button_brown:hover {
   background: #000;
   color: #fff;
+  border: 2px double gold;
 }
 
 .button_grey {
