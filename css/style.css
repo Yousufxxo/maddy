@@ -455,7 +455,8 @@ header .slideshow {
   height: 100vh;
   max-width: 1600px;
   position: relative;
-  background-color: #000;
+  background-image: linear-gradient(135deg, #000000 50%, #ffe000 98%);
+  /* background-color: #000; */
 }
 header .slideshow .fade {
   animation: fade 1.5s;
